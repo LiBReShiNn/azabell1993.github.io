@@ -24,7 +24,7 @@ description              : "미술해부학으로 비례공부하고 설계하�
 url                      : "https://Azabell1993.github.io"
 baseurl                  : # 서브 경로가 있는 경우 기재
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/logo.jpg"
+teaser                   : "/assets/images/me.jpg"
 logo                     : # 최상단 메뉴 바에 사이트 로고 넣기
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -95,9 +95,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "임베디드 IoT AI SW개발자"
+  name             : "임베디드 개발자"
   avatar           : "/assets/images/logo.jpg"
-  bio              : "C/C++를 사랑하는 개발자"
+  bio              : "기술 블로그"
   location         : "South Korea"
   email            :
   links:
