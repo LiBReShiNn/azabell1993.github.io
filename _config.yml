@@ -96,7 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "임베디드 개발자"
-  avatar           : "/assets/images/logo.jpg"
+  avatar           : "/assets/images/me.jpg"
   bio              : "기술 블로그"
   location         : "South Korea"
   email            :
