@@ -1,5 +1,5 @@
 ---
-title: "Posts by c언어의 모든 것"
+title: "Posts by C와 Linux의 모든 것"
 layout: category
 permalink: /categories/clang/
 author_profile: true
