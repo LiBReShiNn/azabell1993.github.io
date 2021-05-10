@@ -1,0 +1,3 @@
+catagories modify file : _data -> navigation.yml
+
+pages로 들어가서 catagories.md 추가.
