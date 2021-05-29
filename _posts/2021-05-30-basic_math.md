@@ -10,6 +10,11 @@ tags:
   - C/C++
 ---
 
+**Git Clone Address**  
+```c
+https://github.com/Azabell1993/-embedded-_basic_math
+```  
+
 
 **make a header file**  
   
@@ -932,4 +937,8 @@ int main(int argc, char *argv[])
 }
 ```  
  
+![기탄수학 출력1](https://user-images.githubusercontent.com/75885992/120077061-84059680-c0e3-11eb-9782-a437b0af23b1.png)  
+![기탄수학 출력2](https://user-images.githubusercontent.com/75885992/120077065-8536c380-c0e3-11eb-8e6a-ec094dcc8299.png)  
+![기탄수학 출력3](https://user-images.githubusercontent.com/75885992/120077066-85cf5a00-c0e3-11eb-8a43-246453a94f5e.png)  
+
 
