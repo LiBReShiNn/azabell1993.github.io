@@ -866,7 +866,7 @@ double std_deviation;
 double variance_2;
 double std_deviation_2;
 
-/*
+/*text file stream setting*/
 void Loop_Result(int score[][PART_COUNT])
 {
 	for(int i=0; i<MAX_STUDENT_COUNT; i++)
@@ -887,6 +887,7 @@ void Loop_Result(int score[][PART_COUNT])
 	}
 }
 
+/*excell file stream setting*/
 void Loop_Result(int score[][PART_COUNT])
 {
 	for(int i=0; i<MAX_STUDENT_COUNT; i++)
