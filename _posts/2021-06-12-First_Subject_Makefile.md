@@ -164,7 +164,7 @@ FILE *tfp;
 #endif
 ```  
 
-*main.c 파일입니다. 프로그램 구동의 중심이 되는 심장을 코딩했습니다.**    
+**main.c 파일입니다. 프로그램 구동의 중심이 되는 심장을 코딩했습니다.**    
   
 ```c
 #include "program.h"
@@ -873,12 +873,12 @@ void Loop_Result(int score[][PART_COUNT])
 	{
 		variance = 0;
 		variance = variance + (
-								(((score[i][0] - AVERAGE[i]) * ((score[i][0] - AVERAGE[i])) +
-								(((score[i][1] - AVERAGE[i]) * (score[i][1] - AVERAGE[i])) +
-								(((score[i][2] - AVERAGE[i]) * ((score[i][2] - AVERAGE[i])) +
-								(((score[i][3] - AVERAGE[i]) * ((score[i][3] - AVERAGE[i])) +
-								(((score[i][4] - AVERAGE[i]) * ((score[i][4]) - AVERAGE[i]))
-							  );
+			(((score[i][0] - AVERAGE[i]) * ((score[i][0] - AVERAGE[i])) +
+			(((score[i][1] - AVERAGE[i]) * (score[i][1] - AVERAGE[i])) +
+			(((score[i][2] - AVERAGE[i]) * ((score[i][2] - AVERAGE[i])) +
+			(((score[i][3] - AVERAGE[i]) * ((score[i][3] - AVERAGE[i])) +
+			(((score[i][4] - AVERAGE[i]) * ((score[i][4]) - AVERAGE[i]))
+			 );
 
 		variance = variance / PART_COUNT;
 		std_deviation = sqrt(variance);
@@ -893,12 +893,12 @@ void Loop_Result(int score[][PART_COUNT])
 	{
 		variance_2 = 0;
 		variance_2 = variance_2 + (
-								(((score[i][0] - AVERAGE[i]) * ((score[i][0] - AVERAGE[i])) +
-								(((score[i][1] - AVERAGE[i]) * (score[i][1] - AVERAGE[i])) +
-								(((score[i][2] - AVERAGE[i]) * ((score[i][2] - AVERAGE[i])) +
-								(((score[i][3] - AVERAGE[i]) * ((score[i][3] - AVERAGE[i])) +
-								(((score[i][4] - AVERAGE[i]) * ((score[i][4]) - AVERAGE[i]))
-							  );
+			(((score[i][0] - AVERAGE[i]) * ((score[i][0] - AVERAGE[i])) +
+			(((score[i][1] - AVERAGE[i]) * (score[i][1] - AVERAGE[i])) +
+			(((score[i][2] - AVERAGE[i]) * ((score[i][2] - AVERAGE[i])) +
+			(((score[i][3] - AVERAGE[i]) * ((score[i][3] - AVERAGE[i])) +
+			(((score[i][4] - AVERAGE[i]) * ((score[i][4]) - AVERAGE[i]))
+			 );
 
 		variance_2 = variance_2 / PART_COUNT;
 		std_deviation_2 = sqrt(variance_2);
