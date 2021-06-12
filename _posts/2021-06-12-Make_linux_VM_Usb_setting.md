@@ -99,4 +99,4 @@ Support for USB 2.0 and USB 3.0 devices, VirtualBox RDP, disk encryption, NVMe a
   
 이 세가지 과정을 마치니 버추얼 머신에 성공적으로 USB인식이 되었다.  
    
-
+![usb_settings](https://user-images.githubusercontent.com/75885992/121780839-1b3b1580-cbdd-11eb-8b38-585319f8ab12.jpg)

@@ -910,5 +910,9 @@ void Loop_Result(int score[][PART_COUNT])
 ```  
 
 여기서 fprintf를 구현하였기 때문에 그냥 함수명만 가져다가 그대로 구현하면 됩니다.  
-  
+    
+![window_1](https://user-images.githubusercontent.com/75885992/121780826-065e8200-cbdd-11eb-84e4-bfaf9f5bdeae.jpeg)  
+![window_2](https://user-images.githubusercontent.com/75885992/121780827-078faf00-cbdd-11eb-8c05-ec4077e79804.jpeg)  
+![window_3](https://user-images.githubusercontent.com/75885992/121780828-078faf00-cbdd-11eb-8aa2-9a0cf0071eef.jpeg)  
+
   
