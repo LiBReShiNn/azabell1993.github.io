@@ -10,7 +10,8 @@ tags:
   - C/C++
 ---
 
- 저는 5월 28일에 서울 기술교육센터 임베디드반에 입학을 하여서 교육을 받고 있는 중입니다.  
+ 저는 5월 28일에 서울 기술교육센터 임베디드반에 입학을 하여서 약 한 달 반의 교육을 받았으며,
+ 주로 사물인터넷이 주이기 때문에 하드웨어 시스템 엔지니어로써 보안도 같이 배우기 위해 학원을 옮겼습니다.
 
  저의 깃 허브를 들어가시면 소스코드를 볼 수 있으며, 각 폴더의 설명은 아래를 참조하시면 될 것 같습니다.  
 
@@ -42,23 +43,31 @@ Tetris : 테트리스
 ***File Tree***
 ===============
 
-|/////// **include**
-|///////|-- ename.c.inc
-|///////|-- error_functions.c
-|///////|-- error_functions.h
-|///////|-- get_num.c
-|///////|-- get_num.h
-|///////|-- tlpi_hdr.h
-|-- game_install.sh
-|-- logo.h
-|-- Makefile
-|-- move_down.h
-|-- move_left.h
-|-- move_right.h
-|-- move_rotate.h
-|-- Print_screen.h
-|-- program.h
-|-- settings.h
+```c
+.
+├── game_install.sh
+├── include
+│   ├── ename.c.inc
+│   ├── error_functions.c
+│   ├── error_functions.h
+│   ├── get_num.c
+│   ├── get_num.h
+│   └── tlpi_hdr.h
+├── logo.h
+├── main.c
+├── Makefile
+├── move_down.h
+├── move_left.h
+├── move_right.h
+├── move_rotate.h
+├── Print_screen.h
+├── program.h
+├── README.md
+├── settings.h
+├── toplist_saevd.text
+├── whoami_saved.text
+└── whoami.text
+```  
 
 **Where is the use at 'include' folder**
 
