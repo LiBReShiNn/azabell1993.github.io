@@ -29,34 +29,37 @@ tags:
 **4단계 비밀번호)** pIwrPrtPN36QITSp3EQaw936yaFoFgAB  
 **5단계 비밀번호)** koReBOKuIDDepwhWk7jZC0RTdopnAYKh  
 **6단계 비밀번호)** DXjZPULLxYr17uwoI01bNLQbtFemEgo7  
+  
+(여기서부터 풀이과정이 포함되어있습니다.)  
+	  
 **7단계 비밀번호)** HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs 
 ```c
-(find / -user bandit7 -group bandit6 -size 33c 2>/dev/null)  
+$ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null  
 ```  
   
 **8단계 비밀번호)** millionth / cvX2JJa4CFALtqS87jk27qwqGhBM9plV 
 ```c
-(grep -r 'millionth' data.txt)  
+$ grep -r 'millionth' data.txt  
 ```  
   
 **9단계 비밀번호)** 1 UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR  
 ```c
-(sort data.txt | uniq -u | sort -nrqie lines )  
+$ sort data.txt | uniq -u | sort -nrqie lines   
 ```  
   
 **10단계 비밀번호)** truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk   
 ```c
-(strings data.txt | grep "===" |  sed s/==========//g | sed s/Z\)//g | tr -d '&')  
+$ strings data.txt | grep "===" |  sed s/==========//g | sed s/Z\)//g | tr -d '&'  
 ```  
   
 **11단계 비밀번호)** The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR 
 ```c 
-(base64 -d data.txt)  
+$ base64 -d data.txt  
 ```  
   
 **12단계 비밀번호)** The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu 
 ```c
-(cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m')  
+$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'  
 ```  
   
 **13단계 비밀번호)** The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL   
